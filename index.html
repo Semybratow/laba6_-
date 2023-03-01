@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <script>
+    // просимо користувача ввести номер місяця
+  var month = prompt("Введіть номер місяця який вас цікавить ");
+    // просимо ввести рік
+  var year = prompt("Введіть рік який вас цікавить");
+    // визначаємо скільки днів в місяці
+  var days = new Date(year, month, 0).getDate();
+    // виводимо результат
+  alert (days + " в " + month + '.' + year);
+
+
+  </script>
+</body>
+</html>
